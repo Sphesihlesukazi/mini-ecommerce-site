@@ -81,3 +81,18 @@ display:flex;
 .button {
     margin:0 auto;
 }
+
+footer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+li{
+    
+    list-style-type: none;
+} 
+
+footer > .line {
+    border: 1px solid red;
+}
