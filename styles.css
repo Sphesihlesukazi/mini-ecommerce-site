@@ -74,11 +74,15 @@ header {
 }
 
 .product-name{
-    text-align: center;  
+    text-align: center; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
 }
 
 .product-price{
      text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
 }
 
 /* region Reviews per Product */
@@ -88,10 +92,13 @@ header {
     grid-template-columns: auto auto;
     align-items: center;
     align-content: center;
+    gap: 8px;
 }
 
 .product-review {
     text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
 }
 	
 .product-review-star-rating { 
@@ -102,7 +109,7 @@ header {
 } 
 
 .product-review-star-rating::before { 
-    content: '★★★★';
+    content: '★★★★★';
     opacity: .3;
     left: 0;
     top:0;
@@ -110,7 +117,7 @@ header {
       
 .product-review-star-rating::after {
     color: gold;
-    content: '★★★★';
+    content: '★★★★★';
     text-shadow: 0 1px 0 #ab5414;
     position: absolute;
     z-index: 1;
@@ -126,7 +133,9 @@ header {
     margin-top: 25px;
     padding: 2em;
     border-radius: 1em;
-    width: 242px;;
+    width: 242px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
 }
 
 /* region Product */
