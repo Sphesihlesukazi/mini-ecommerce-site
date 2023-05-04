@@ -81,30 +81,10 @@ header {
 .reviews{
      text-align: center;
 }
-<<<<<<< HEAD
-
-.stars{
-    display: flex;
-}
 
 .button {
     margin:0 auto;
 }
-=======
-.stars{
-    display: flex;
-}
-.button {
-    margin:0 auto;
-}
-
-.footer{
-width: 100%;
-height: 329px;
-background: #EAD0D0;
-padding:20px 200px;
-margin-top:50px;
->>>>>>> 95d31aef1a84ca24a254b78d01bd7a945cdf333f
 
 .footer{
     width: 100%;
@@ -159,7 +139,6 @@ margin-top:50px;
     left: -120px;
 }
 	
-<<<<<<< HEAD
 .star-ratings-css {
     unicode-bidi: bidi-override;
     color: #c5c5c5;
@@ -188,8 +167,3 @@ margin-top:50px;
     width: attr(rating);
     overflow: hidden;
 }
-  
-=======
-	
->>>>>>> 97c5178c1f3fd4d9e4e666c3942f6f42b7c2159c
->>>>>>> 95d31aef1a84ca24a254b78d01bd7a945cdf333f
