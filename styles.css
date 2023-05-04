@@ -167,3 +167,7 @@ header {
     width: attr(rating);
     overflow: hidden;
 }
+
+.reviews {
+    display: flex;
+}
