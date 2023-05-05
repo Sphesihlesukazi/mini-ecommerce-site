@@ -36,6 +36,12 @@ header {
     display:flex;
 }
 
+.active {
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -54,7 +60,7 @@ header {
 	justify-content: center;
 	gap: 40px;
 	align-items:center;
-	padding-top:60px;
+	margin: 60px;
 }
 
 .card{ /*info container*/
@@ -66,6 +72,8 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 8px;
+    margin: 0 auto;
+    border-color: #EAD0D0;
 }
 
 .product-image{
@@ -147,7 +155,6 @@ header {
     justify-content: center;
 	align-items:center;
     padding: 10px;
-    margin-top: 40px;
 }
 
 .headings{
